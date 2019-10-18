@@ -161,7 +161,7 @@ marioStairs(5) → undefined
 
 ### 1. [startHi](https://codingbat.com/prob/p191022)
 
-You are writing software for a robot that needs to identify when a human is saying hi to it. You are given the task of writing a JavaScript function, that given a string that represents the speech-to-text result, returns true if the string starts with `"hi"` and false otherwise.
+You are writing software for a robot named A21 that needs to identify when a human is saying hi to it. You are given the task of writing a JavaScript function, that given a string that represents the speech-to-text result, returns true if the string starts with `"hi"` and false otherwise.
 
 **Function signature**: `startHi(string) → boolean`
 
@@ -172,7 +172,18 @@ startHi("hi") → true
 startHi("hello hi") → false
 ```
 
+### 2 [notString](https://codingbat.com/prob/p191914)
+You are in charge of writing software to enable A21 the robot to negate everything a human says. For instance if a human says "candy" A21 will reply with "not candy". If the human says "not really" the bot should identify that there is no need to add negate that and simply reply with "not really".
 
+Write a function that given the speech-to-text string of A21, returns a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. 
+
+```
+notString("candy") → "not candy"
+notString("x") → "not x"
+notString("not bad") → "not bad"
+```
+
+**Hint**: String methods may be handy here. They are not necessary but definitely handy.
 
 ### reverseWord
 
