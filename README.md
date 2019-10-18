@@ -2,7 +2,10 @@
 
 **Conventions:**
 
-* `→` (arrow) means return/s.
+* In a function definition `argument:type` means that a given `argument` is of type `type`. For Example in `alarmClock(dayNum: number, onVacation:boolean) → string`:
+  * `dayNum: number` means that the `dayNum` argument will/should be a number (a value of type `number`). 
+  * `onVacation: boolean` means that the `onVacation` argument of the function will be a boolean. That is the value of `onVacation` will be either `true` or `false`
+  * `→ string` means the function will/should return a string(a value of type `string`)
 
 ## Conditionals
 
@@ -23,13 +26,26 @@ loneTeen(13, 13) → false
 
 You are driving a little too fast, and a police officer stops you. Write a function `caughtSpeeding` to compute the result, encoded as number value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 1. If speed is 81 or more, the result is 2. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
 
-**Function signature**: `caughtSpeeding(speed, isBirthday) → number`
+**Function signature**: `caughtSpeeding(speed: number, isBirthday: boolean) → number`
 
 **Sample input & output**: 
 ```
 caughtSpeeding(60, false) → 0
 caughtSpeeding(65, false) → 1
 caughtSpeeding(65, true) → 0
+```
+
+### 3. [alarmClock](https://codingbat.com/prob/p160543)
+
+Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+
+**Function signature**: `alarmClock(dayNum: number, onVacation: boolean) → string`
+
+**Sample input & output**: 
+```
+alarmClock(1, false) → "7:00"
+alarmClock(5, false) → "7:00"
+alarmClock(0, false) → "10:00"
 ```
 
 ## Loops
