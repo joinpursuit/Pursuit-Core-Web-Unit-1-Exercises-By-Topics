@@ -158,6 +158,22 @@ marioStairs(5) → undefined
 **Challenge**: You may have realized that on the final version of the Super Mari Bros game, Mario climbs stairs going right instead of left. Make your function print the stairs going right.
 
 ## Strings
+
+### 1. [startHi](https://codingbat.com/prob/p191022)
+
+You are writing software for a robot that needs to identify when a human is saying hi to it. You are given the task of writing a JavaScript function, that given a string that represents the speech-to-text result, returns true if the string starts with `"hi"` and false otherwise.
+
+**Function signature**: `startHi(string) → boolean`
+
+**Sample input & output**: 
+```
+startHi("hi there") → true
+startHi("hi") → true
+startHi("hello hi") → false
+```
+
+
+
 ### reverseWord
 
 ## Arrays
