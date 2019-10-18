@@ -138,6 +138,25 @@ numberEvenlyDivisibleBy(3, 15, 3) → undefined
 15 yes
 ```
 
+### marioStairs
+You are one of the early developers of the now famous Super Mario Bros video game. You are in charge of writing a JavaScript program that builds the stairs Mario will use to jump over obstacles and reach the castle in the text based video game prototype. [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto) asks you to implement a function `marioStairs(nSteps)` that will build the a stair case of `nSteps` number of steps.
+
+**Function signature**: `marioStairs(nSteps: number) → undefined`
+
+**Sample input & output**: 
+```
+marioStairs(5) → undefined
+
+// Prints
+*  
+* *  
+* * *  
+* * * *  
+* * * * *  
+```
+**Hint**: You will need a nested loop
+**Challenge**: You may have realized that on the final version of the Super Mari Bros game, Mario climbs stairs going right instead of left. Make your function print the stairs going right.
+
 ## Strings
 ### reverseWord
 
