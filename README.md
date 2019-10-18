@@ -194,11 +194,39 @@ You work for an old newspaper that uses old printers. They are so old that for t
 **Sample input & output**: 
 ```
 reverseWord("there") → "ereht"
-reverseWord("hi") → "ih"
+reverseWord("racecar") → "racecar"
 reverseWord("hello") → "olleh"
 ```
 **Hints**:
   * Don't use array methods.
+
+### 4. frameWord
+
+Given a word `word` frame it in stars (`*`).
+
+**Function signature**: `frameWord(word: string) → undefined`
+
+**Sample input & output**: 
+```
+frameWord("Hello") → undefined
+//Prints
+*********
+*       *
+* Hello *
+*       *
+*********
+
+frameWord("Constantinople") → undefined
+//Prints
+******************
+*                *
+* Constantinople *
+*                *
+******************
+```
+
+**Hints**:
+  * You will need nested loops.
 
 ## Arrays
 ## Objects
