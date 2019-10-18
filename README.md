@@ -62,7 +62,39 @@ inOrder(1, 1, 2, true) → true
 ```
 
 ## Loops
+
+### numberInRange
+### multiplicationTable
+
+### numbersEvenlyDivisibleBy
+
+Write a function with a loop that will iterate from `min` to `max`. For each iteration, it will check if the current number is evenly divisible by `divisor` if it is, you function should print the number followed by the word 'yes', otherwise print the number followed by the word 'no'
+
+**Function signature**: `numbersEvenlyDivisibleBy(min: number, max: number, divisor: number) → undefined`
+
+**Sample input & output**: 
+```
+numberEvenlyDivisibleBy(3, 15, 3) → undefined
+
+// Prints
+3 yes
+4 no
+5 no
+6 yes
+7 no
+8 no
+9 yes
+10 no
+11 no
+12 yes
+13 no
+14 no
+15 yes
+```
+
 ## Strings
+### reverseWord
+
 ## Arrays
 ## Objects
 ## Callbacks
