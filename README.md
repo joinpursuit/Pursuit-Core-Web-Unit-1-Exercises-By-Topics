@@ -63,7 +63,32 @@ inOrder(1, 1, 2, true) → true
 
 ## Loops
 
-### numberInRange
+### serialIdGenerator
+You work for an e-commerce warehouse. They have been manually assigning items in the inventory serial id numbers like `1658`. They are tired of doing this and ask you to write a JavaScript program to generate `n` more serial id numbers for `n` new products that will be added to the inventory.
+They give you `lastId` which is the id of the last item that was added to the inventory. You should pick up from where they left.
+They also give you `n` which is how many new serial id numbers they want.
+
+Write a function that prints `n` new serial id numbers starting but not including the `lastId`.
+
+**Function signature**: `serialIdGenerator(lastId: number, n: number) → undefined`
+
+**Sample input & output**: 
+```
+serialIdGenerator(110, 120) → undefined
+
+// Prints
+111
+112
+113
+114 
+115 
+116
+117
+118
+119 
+120
+```
+
 ### multiplicationTable
 
 ### numbersEvenlyDivisibleBy
