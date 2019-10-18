@@ -74,7 +74,7 @@ Write a function that prints `n` new serial id numbers starting but not includin
 
 **Sample input & output**: 
 ```
-serialIdGenerator(110, 120) → undefined
+serialIdGenerator(110, 10) → undefined
 
 // Prints
 111
@@ -87,6 +87,7 @@ serialIdGenerator(110, 120) → undefined
 118
 119 
 120
+121
 ```
 
 ### multTable
