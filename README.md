@@ -89,7 +89,27 @@ serialIdGenerator(110, 120) → undefined
 120
 ```
 
-### multiplicationTable
+### multTable
+Given an integer number `n` print the multiplication table for `n` times 1 to 10.
+
+**Function signature**: `multTable(n: number) → undefined`
+
+**Sample input & output**: 
+```
+multTable(2) → undefined
+
+// Prints
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+```
 
 ### numbersEvenlyDivisibleBy
 
