@@ -185,7 +185,20 @@ notString("not bad") → "not bad"
 
 **Hint**: String methods may be handy here. They are not necessary but definitely handy.
 
-### reverseWord
+### 3. reverseWord
+
+You work for an old newspaper that uses old printers. They are so old that for the printer to output words correctly you need to feed it the words reversed. You don't want to reverse words manually ever again. Write a JavaScript program that reverses a given word.
+
+**Function signature**: `reverseWord(word: string) → string`
+
+**Sample input & output**: 
+```
+reverseWord("there") → "ereht"
+reverseWord("hi") → "ih"
+reverseWord("hello") → "olleh"
+```
+**Hints**:
+  * Don't use array methods.
 
 ## Arrays
 ## Objects
