@@ -241,6 +241,20 @@ makeMiddle([7, 1, 2, 3, 4, 9]) → [2, 3]
 makeMiddle([1, 2]) → [1, 2]
 ```
 
+### findWord
+The editor at the newspaper you work for asked you to write a JavaScript program to find a word in an array of words. She would like to use your program to find spelling mistakes and verify that certain words are used in the newspaper's articles.
+
+Write a JavaScript function that searches an array of words for target word and returns the index at which the word was found. The function should work for both lowercase and uppercase strings.
+
+**Function signature**: `findWord(word: string) → number`
+
+**Sample input & output**: 
+```
+findWord(["Hi", "there", "Mr." "Mosley"], "Mr.") → 2
+findWord(["bye", "Rose"], "BYE") → 1
+findWord(["The", "New", "York", "Times"], "times") → 3
+```
+
 ### interleaveArrays
 ### findWord
 
