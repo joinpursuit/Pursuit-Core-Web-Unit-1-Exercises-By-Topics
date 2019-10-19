@@ -241,6 +241,23 @@ makeMiddle([7, 1, 2, 3, 4, 9]) → [2, 3]
 makeMiddle([1, 2]) → [1, 2]
 ```
 
+### interleaveArrays
+### findWord
+
+### canIGetCandy
+You want to buy some candy. Your wallet is an array of coins that you can use to buy your candy. You really like your coins and don't want to spend more than 2 coins getting your candy. Write a JavaScript function that will check your wallet to see if you can add up two coins to pay for your candy if so the function should return true and you can buy your candy, otherwise return false and go home.
+
+* All your coins are in cents and the price of candy will always be in cents too.
+
+**Function signature**: `canIGetCandy(coins: Array, candyPrice: num) → boolean`
+
+**Sample input & output**: 
+```
+sumOfCoins([1, 5, 10, 25, 5, 1], 35) → true
+makeMiddle([5, 1, 10], 25) → false
+makeMiddle([25, 25, 1], 50) → true
+```
+
 ## Objects
 ## Callbacks
 ## Array Methods
