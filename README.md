@@ -282,6 +282,16 @@ makeMiddle([25, 25, 1], 50) → true
 ```
 
 ## Objects
+* Add
+* Access
+* Update
+* For in loop. List all the keys
+* simpleUrlEncodedParser
+
 ## Callbacks
+
+  Asynchronous and composability
+  createDelay
 ## Array Methods
+  ### interleaveArraysWithSort
 ## Classes
