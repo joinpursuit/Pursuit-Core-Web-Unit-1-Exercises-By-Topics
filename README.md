@@ -2,10 +2,14 @@
 
 **Conventions:**
 
-* In a function signature `argument:type` means that a given `argument` is of type `type`. For Example in `alarmClock(dayNum: number, onVacation:boolean) → string`:
+* In a function signature `<argument>:<type>` means that a given `argument` is of type `type`. For Example in `alarmClock(dayNum: number, onVacation:boolean) → string`:
   * `dayNum: number` means that the `dayNum` argument will/should be a number (a value of type `number`). 
   * `onVacation: boolean` means that the `onVacation` argument of the function will be a boolean. That is the value of `onVacation` will be either `true` or `false`
   * `→ string` means the function will/should return a string(a value of type `string`)
+* In a function signature a `type` like `<type>[]`, for example `string[]` means the argument or return value is an `array` of `string` elements. 
+  * `number[]` means the argument or return value is an array of `number` elements
+  * `boolean[]` means the argument or return value is an array of `boolean` elements
+  * And so on.
 
 ## Conditionals
 
@@ -232,7 +236,7 @@ frameWord("Constantinople") → undefined
 ### [makeMiddle](https://codingbat.com/prob/p199519)
 In the warehouse you work at they like to get a sample of the items that arrive as resupplies. The manager likes to get the sample always from the middle of the list. Given an array of ids of even length, return a new array length 2 containing the middle two elements from the original array. The original array will be length 2 or more.
 
-**Function signature**: `makeMiddle(list: Array) → Array`
+**Function signature**: `makeMiddle(list: number[]) → number[]`
 
 **Sample input & output**: 
 ```
@@ -260,7 +264,7 @@ You are part of the team working in the November edition of the Squire magazine.
 
 Write a JavaScript function that interleaves two sorted arrays. It should return one array with the interleaved values.
 
-**Function signature**: `interleaveArrays(textPages: Array, imagePages: Array) → Array`
+**Function signature**: `interleaveArrays(textPages: number[], imagePages: number[]) → number[]`
 
 **Sample input & output**: 
 ```
@@ -272,7 +276,7 @@ You want to buy some candy. Your wallet is an array of coins that you can use to
 
 * All your coins are in cents and the price of candy will always be in cents too.
 
-**Function signature**: `canIGetCandy(coins: Array, candyPrice: num) → boolean`
+**Function signature**: `canIGetCandy(coins: number[], candyPrice: num) → boolean`
 
 **Sample input & output**: 
 ```
