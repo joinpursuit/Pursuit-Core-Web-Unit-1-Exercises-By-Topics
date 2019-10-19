@@ -91,7 +91,7 @@ serialIdGenerator(110, 10) → undefined
 ```
 
 ### multTable
-Given an integer number `n` print the multiplication table for `n` times 1 to 10.
+Given an integer number `n`, print the multiplication table for `n`, times 1 to 10.
 
 **Function signature**: `multTable(n: number) → undefined`
 
@@ -139,7 +139,7 @@ numberEvenlyDivisibleBy(3, 15, 3) → undefined
 ```
 
 ### marioStairs
-You are one of the early developers of the now famous Super Mario Bros video game. You are in charge of writing a JavaScript program that builds the stairs Mario will use to jump over obstacles and reach the castle in the text based video game prototype. [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto) asks you to implement a function `marioStairs(nSteps)` that will build the a stair case of `nSteps` number of steps.
+You are one of the early developers of the now famous Super Mario Bros video game. You are in charge of writing a JavaScript program that builds the stairs Mario will use to jump over obstacles and reach the castle in the text based video game prototype. [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto) asks you to implement a function `marioStairs(nSteps)` that will build a stair case of `nSteps` number of steps.
 
 **Function signature**: `marioStairs(nSteps: number) → undefined`
 
