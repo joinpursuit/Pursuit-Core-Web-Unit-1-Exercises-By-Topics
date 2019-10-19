@@ -286,7 +286,29 @@ makeMiddle([25, 25, 1], 50) → true
 ```
 
 ## Objects
-* Add
+
+### createUser
+You work for a new Social media company. This new company wants to keep a user's profile information in JavaScript objects since their application is a JavaScript App. You are given the task to create a function that given a user's `name`, `dob`, `gender` and `photoUrl` creates and returns a JavaScript object with that information.
+
+**Function signature**: `createUser(name: string, dob: string:, gender: string, photoUrl: string) → object`
+
+**Sample input & output**: 
+```
+createUser(
+  "Jon Snow", 
+  "01/01/1970", 
+  "M", 
+  "https://vignette.wikia.nocookie.net/gameofthrones/images/d/d0/JonSnow8x06.PNG/"
+) → {
+  name: "Jon Snow", 
+  dob: "01/01/1970", 
+  gender: "M", 
+  photoUrl: "https://vignette.wikia.nocookie.net/gameofthrones/images/d/d0/JonSnow8x06.PNG/"
+}
+```
+
+### setUserToActive
+When a user connects to the Social Media App a users profile should a
 * Access
 * Update
 * For in loop. List all the keys
