@@ -2,7 +2,7 @@
 
 **Conventions:**
 
-* In a function definition `argument:type` means that a given `argument` is of type `type`. For Example in `alarmClock(dayNum: number, onVacation:boolean) → string`:
+* In a function signature `argument:type` means that a given `argument` is of type `type`. For Example in `alarmClock(dayNum: number, onVacation:boolean) → string`:
   * `dayNum: number` means that the `dayNum` argument will/should be a number (a value of type `number`). 
   * `onVacation: boolean` means that the `onVacation` argument of the function will be a boolean. That is the value of `onVacation` will be either `true` or `false`
   * `→ string` means the function will/should return a string(a value of type `string`)
