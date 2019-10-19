@@ -256,7 +256,16 @@ findWord(["The", "New", "York", "Times"], "times") → 3
 ```
 
 ### interleaveArrays
-### findWord
+You are part of the team working in the November edition of the Squire magazine. They want the magazine to have a page of text followed by a page with an image. They printed the image pages and text pages separately, now you have to interleave them. You are glad that the pages are numbered.
+
+Write a JavaScript function that interleaves two sorted arrays. It should return one array with the interleaved values.
+
+**Function signature**: `interleaveArrays(textPages: Array, imagePages: Array) → Array`
+
+**Sample input & output**: 
+```
+interLeaveArrays([ 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 ],[ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]) → [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+```
 
 ### canIGetCandy
 You want to buy some candy. Your wallet is an array of coins that you can use to buy your candy. You really like your coins and don't want to spend more than 2 coins getting your candy. Write a JavaScript function that will check your wallet to see if you can add up two coins to pay for your candy if so the function should return true and you can buy your candy, otherwise return false and go home.
