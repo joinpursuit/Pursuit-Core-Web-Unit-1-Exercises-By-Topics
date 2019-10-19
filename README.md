@@ -226,7 +226,7 @@ frameWord("Constantinople") → undefined
 ```
 
 **Hints**:
-  * You will need nested loops.
+  * What's the pattern? How can you concatenate such pattern?
 
 ## Arrays
 ## Objects
