@@ -228,6 +228,19 @@ frameWord("Constantinople") → undefined
   * What's the pattern? How can you concatenate such pattern?
 
 ## Arrays
+
+### [makeMiddle](https://codingbat.com/prob/p199519)
+In the warehouse you work at they like to get a sample of the items that arrive as resupplies. The manager likes to get the sample always from the middle of the list. Given an array of ids of even length, return a new array length 2 containing the middle two elements from the original array. The original array will be length 2 or more.
+
+**Function signature**: `makeMiddle(list: Array) → Array`
+
+**Sample input & output**: 
+```
+makeMiddle([1, 2, 3, 4]) → [2, 3]
+makeMiddle([7, 1, 2, 3, 4, 9]) → [2, 3]
+makeMiddle([1, 2]) → [1, 2]
+```
+
 ## Objects
 ## Callbacks
 ## Array Methods
