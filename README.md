@@ -154,7 +154,6 @@ marioStairs(5) → undefined
 * * * *  
 * * * * *  
 ```
-**Hint**: You will need a nested loop
 **Challenge**: You may have realized that on the final version of the Super Mari Bros game, Mario climbs stairs going right instead of left. Make your function print the stairs going right.
 
 ## Strings
